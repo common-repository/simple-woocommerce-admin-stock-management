@@ -1,0 +1,37 @@
+.simple_woo_restock_overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 0.6); }
+  .simple_woo_restock_overlay .simple_woo_restock_content {
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) !important;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    padding: 30px; }
+    .simple_woo_restock_overlay .simple_woo_restock_content .cancel {
+      right: 5px;
+      top: 5px;
+      position: absolute;
+      cursor: pointer; }
+    .simple_woo_restock_overlay .simple_woo_restock_content .simple_woo_buttons_container {
+      text-align: center;
+      margin-top: 25px; }
+      .simple_woo_restock_overlay .simple_woo_restock_content .simple_woo_buttons_container button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 12px;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 2px;
+        cursor: pointer; }
+        .simple_woo_restock_overlay .simple_woo_restock_content .simple_woo_buttons_container button:hover {
+          text-decoration: underline; }
+
+/*# sourceMappingURL=simple-woocommerce-restock.css.map */
